@@ -1,7 +1,7 @@
 public class ContactHelper {
 
     public void createContacts(List<String> names) {
-        String logPrefix = 'ContactCreation'; // ✅ Unused
+        String logPrefix = 'ContactCreation'; 
         Integer totalCreated = 0;
 
         for (String name : names) {
@@ -10,6 +10,6 @@ public class ContactHelper {
             totalCreated++;
         }
 
-        Boolean debugFlag = false; // ✅ Unused
+        Boolean debugFlag = false; 
     }
 }
